@@ -1,0 +1,31 @@
+{
+    "tickets": [
+        {
+            "name": "normalny",
+            "price_in_cents": 350,
+            "initial_count": 100
+        },
+        {
+            "name": "ulgowy",
+            "price_in_cents": 170,
+            "initial_count": 50
+        },
+        {
+            "name": "dobowy",
+            "price_in_cents": 1500,
+            "initial_count": 20
+        }
+    ],
+    "initial_coins": {
+        "500": 5,
+        "200": 10,
+        "100": 20,
+        "50": 20,
+        "20": 50,
+        "10": 50
+    },
+    "server": {
+        "port": 8080,
+        "timeout_seconds": 60
+    }
+}

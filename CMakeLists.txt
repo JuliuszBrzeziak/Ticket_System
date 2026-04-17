@@ -10,6 +10,7 @@ find_package(GTest REQUIRED)
 
 add_library(core
     src/core/ChangeCalculator.cpp
+    src/core/TicketPool.cpp
 )
 
 target_include_directories(core PUBLIC src)
