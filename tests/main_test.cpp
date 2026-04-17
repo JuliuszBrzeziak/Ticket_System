@@ -1,6 +1,7 @@
 #include <gtest/gtest.h>
 
-TEST(SanityCheck, TrueIsTrue)
+int main(int argc, char **argv)
 {
-    EXPECT_EQ(1 + 1, 2);
+    ::testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
