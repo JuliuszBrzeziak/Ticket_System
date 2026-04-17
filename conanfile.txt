@@ -1,0 +1,11 @@
+[requires]
+gtest/1.14.0
+cpp-httplib/0.18.0
+nlohmann_json/3.11.3
+
+[generators]
+CMakeDeps
+CMakeToolchain
+
+[options]
+cpp-httplib/*:with_openssl=False
